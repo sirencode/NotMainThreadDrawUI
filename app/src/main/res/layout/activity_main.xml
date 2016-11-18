@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:rootsurfaceview="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.ui.diablo.notmainthreaddrawui.RootSurfaceView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        rootsurfaceview:view_width="300dp"
+        rootsurfaceview:view_height="300dp"
+        android:layout_gravity="center"
+        rootsurfaceview:background="@mipmap/present_pic" />
+
+    <com.ui.diablo.notmainthreaddrawui.RootSurfaceView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        rootsurfaceview:background="@mipmap/common_page_bg" />
+
+</FrameLayout>

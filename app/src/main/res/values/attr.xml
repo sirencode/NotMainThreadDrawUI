@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RootSurfaceView">
+        <attr name="background" format="reference" />
+        <attr name="view_width" format="dimension" />
+        <attr name="view_height" format="dimension" />
+    </declare-styleable>
+</resources>
